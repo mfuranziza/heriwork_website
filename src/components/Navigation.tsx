@@ -64,7 +64,7 @@ export const Navigation = () => {
         {/* Hamburger Menu for Small Screens */}
         <div className="block md:hidden">
           <button
-            className="text-white focus:outline-none"
+            className="text-[#0737A5] focus:outline-none  bg-white"
             onClick={toggleMenu} // Toggle menu on click
           >
             <svg
@@ -124,7 +124,7 @@ export const Navigation = () => {
             {/* Close Button */}
             <button
               onClick={toggleMenu}
-              className="absolute top-5 right-5 text-white text-2xl"
+              className="absolute top-3 right-4 text-[#0737A5] focus:outline-none  bg-white text-2xl"
             >
               &times;
             </button>
