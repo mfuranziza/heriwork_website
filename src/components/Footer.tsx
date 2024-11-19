@@ -4,7 +4,7 @@ const Footer = () => {
 
     return (
   
-      <footer className="bg-[#F6F7FC] absolute right-0 left-0 bottom-0 w-full">
+      <footer className="bg-[#F6F7FC] absolute right-0 left-0 w-full">
   <div className="container mx-auto flex mt-10">
     <img src={heriworkLogo} alt="heriwork logo" className="h-48 pr-20" />
     <div className="w-1/3 space-y-2">
