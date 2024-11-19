@@ -28,7 +28,7 @@ const Footer = () => {
       </ul>
     </div>
     <div className="w-1/3">
-      <h4 className="font-bold text-start">More Info</h4>
+      <h4 className="text-lg font-bold text-start">More Info</h4>
       <p className='text-[#7A7A7A] text-left'>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
     </div>
   </div>
