@@ -1,6 +1,6 @@
 const ContactForm = () => {
   return (
-    <div className="flex flex-col md:flex-row gap-12 p-8 mb-10 max-w-6xl mx-auto">
+    <div className="flex flex-col md:flex-row gap-20 p-8 mb-10 max-w-6xl mx-auto">
       {/* Left Column */}
       <div className="flex-1">
         <h2 className="text-2xl font-semibold mb-4">
@@ -57,7 +57,7 @@ const ContactForm = () => {
       </div>
 
       {/* Right Column - Form */}
-      <div className="flex-1 bg-gray-50 p-8">
+      <div className="flex-1 bg-[#F6F7FC] p-8">
         <h2 className="text-2xl font-semibold mb-6">Send a Message</h2>
         
         <form className="space-y-6">
