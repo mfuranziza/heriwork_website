@@ -1,5 +1,4 @@
 
-import heriworkLogo from '../../public/images/heriwork_logo.png';
 
 const Footer = () => {
   return (
