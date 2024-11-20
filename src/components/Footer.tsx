@@ -9,7 +9,7 @@ const Footer = () => {
           {/* Logo Section */}
           <div className="flex justify-center md:justify-start md:w-1/4">
             <img 
-              src={heriworkLogo} 
+              src='../../public/images/heriwork_logo.png' 
               alt="heriwork logo" 
               className="h-32 md:h-48 object-contain"
             />
