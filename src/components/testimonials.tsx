@@ -55,7 +55,7 @@
       <div style={{ width: "100vw", padding: "40px 20px", background: "#f9f9f9" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
         <h2 style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "10px" }}>
-          What <span style={{ color: "#0737a5", fontWeight: "bold" }}>Students</span> Say!
+          What <span style={{ color: "#dd6a18", fontWeight: "bold" }}>Students</span> Say!
         </h2>
         <p style={{ fontSize: "1rem", color: "#555", marginBottom: "30px" }}>
           See how our platform helped some of the students achieve their goals.
