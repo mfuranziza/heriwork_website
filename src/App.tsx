@@ -4,6 +4,7 @@ import './App.css'
 import Footer from './components/Footer'
 import ContactForm from './components/Contact-us'
 import About from './components/About'
+import Testimonials from './components/testimonials'
 
 
 function App() {
@@ -17,6 +18,9 @@ function App() {
    <div className="font-poppins bg-gray-50">
       <div className="w-full">
         <About />
+      </div>
+      <div className="mt-12">
+        <Testimonials />
       </div>
       <div className="mt-12">
         <ContactForm />
