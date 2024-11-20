@@ -55,7 +55,7 @@
       <div style={{ width: "100vw", padding: "40px 20px", background: "#f9f9f9" }}>
       <div style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
         <h2 style={{ fontSize: "2rem", marginBottom: "10px" }}>
-          What <span style={{ color: "#007BFF" }}>Students</span> Say!
+          What <span style={{ color: "#0737a5" }}>Students</span> Say!
         </h2>
         <p style={{ fontSize: "1rem", color: "#555", marginBottom: "30px" }}>
           See how our platform helped some of the students achieve their goals.
@@ -99,10 +99,10 @@
                     borderRadius: "50%",
                     marginBottom: "15px",
                     objectFit: "cover",
-                    border: "2px solid #007BFF",
+                    border: "2px solid #0737a5",
                   }}
                 />
-                <h3 style={{ marginBottom: "5px", color: "#007BFF" }}>
+                <h3 style={{ marginBottom: "5px", color: "#0737a5", fontWeight: "bold" }}>
                   {testimonial.name}
                 </h3>
                 <p style={{ fontSize: "0.9rem", color: "#555", marginBottom: "15px" }}>
