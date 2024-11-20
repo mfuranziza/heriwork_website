@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from '../../public/images/white-logo.png';
 
 export const Navigation = () => {
