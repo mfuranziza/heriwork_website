@@ -84,7 +84,7 @@ export const Navigation = () => {
       {/* Popup Mobile Menu */}
       {isMenuOpen && (
         <div className="absolute top-0 left-0 w-full h-screen bg-black bg-opacity-50 z-50 md:hidden">
-          <div className="flex flex-col items-center justify-center h-full bg-[#0737A5] text-white space-y-8">
+          <div className="flex flex-col items-center justify-center h-full bg-[04192D] text-white space-y-8">
             <a
               href=""
               className="text-white hover:text-[#DD6A18] after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[#DD6A18] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full"
@@ -124,7 +124,7 @@ export const Navigation = () => {
             {/* Close Button */}
             <button
               onClick={toggleMenu}
-              className="absolute top-3 right-4 text-[#0737A5] focus:outline-none  bg-white text-2xl"
+              className="absolute top-3 right-4 text-[04192D] focus:outline-none  bg-white text-2xl"
             >
               &times;
             </button>
