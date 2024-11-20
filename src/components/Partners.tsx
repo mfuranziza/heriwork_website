@@ -1,6 +1,6 @@
-import p1Img from '../assets/partners/partner1.png';
-import p2Img from '../assets/partners/partner2.png';
-import p3Img from '../assets/partners/partner3.png';
+import p1Img from '../../public/images/partners/partner1.png';
+import p2Img from '../../public/images/partners/partner2.png';
+import p3Img from '../../public/images/partners/partner3.png';
 
 const Partners = () => {
   return (
