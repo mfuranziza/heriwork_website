@@ -3,11 +3,11 @@ const ContactForm = () => {
     <div className="flex flex-col md:flex-row gap-20 p-8 mb-10 max-w-6xl mx-auto">
       {/* Left Column */}
       <div className="flex-1">
-        <h2 className="text-2xl font-semibold mb-4">
+        <h2 className="text-3xl font-semibold mb-4">
           Get In <span className="text-orange-500">Touch</span>
         </h2>
         
-        <p className="text-gray-600 mb-8 text-start">
+        <p className="text-[#7a7a7ad3] mb-8 text-start">
           Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
         </p>
 
@@ -21,7 +21,7 @@ const ContactForm = () => {
             </div>
             <div>
               <h3 className="font-medium text-left">Address</h3>
-              <p className="text-gray-600">ipsum is simply</p>
+              <p className="text-[#7a7a7ad3]">ipsum is simply</p>
             </div>
           </div>
 
@@ -33,7 +33,7 @@ const ContactForm = () => {
             </div>
             <div>
               <h3 className="font-medium text-left">Phone Number</h3>
-              <p className="text-gray-600">+250-765-456-789</p>
+              <p className="text-[#7a7a7ad3]">+250-765-456-789</p>
             </div>
           </div>
 
@@ -45,13 +45,13 @@ const ContactForm = () => {
             </div>
             <div>
               <h3 className="font-medium text-left">E-Mail</h3>
-              <p className="text-gray-600">contact@gmail.com</p>
+              <p className="text-[#7a7a7ad3]">contact@gmail.com</p>
             </div>
           </div>
         </div>
 
         <div className="mt-8 text-left">
-          <p className="text-gray-600">Are you a company that wants to collaborate?</p>
+          <p className="text-[#7a7a7ad3]">Are you a company that wants to collaborate?</p>
           <a href="#" className="text-[#192633] underline">Click here to register</a>
         </div>
       </div>
@@ -60,12 +60,12 @@ const ContactForm = () => {
       <div className="flex-1 bg-[#F6F7FC] p-8">
         <h2 className="text-2xl font-semibold mb-6">Send a Message</h2>
         
-        <form className="space-y-6">
+        <form className="space-y-6 ">
           <div>
             <input 
               type="text" 
               placeholder="Name" 
-              className="w-full px-4 py-2 border-b border-gray-300 focus:border-blue-500 focus:outline-none bg-transparent"
+              className="w-full px-4 py-2 border-b border-gray-300 focus:border-[#192633] focus:outline-none bg-transparent placeholder-[#192633]"
             />
           </div>
 
@@ -73,7 +73,7 @@ const ContactForm = () => {
             <input 
               type="email" 
               placeholder="Email Address" 
-              className="w-full px-4 py-2 border-b border-gray-300 focus:border-blue-500 focus:outline-none bg-transparent"
+              className="w-full px-4 py-2 border-b border-gray-300 focus:border-[#192633] focus:outline-none bg-transparent placeholder-[#192633]"
             />
           </div>
 
@@ -81,13 +81,18 @@ const ContactForm = () => {
             <textarea 
               placeholder="Message" 
               rows={4}
-              className="w-full px-4 py-2 border-b border-gray-300 focus:border-blue-500 focus:outline-none bg-transparent resize-none"
+              className="w-full px-4 py-2 border-b border-gray-300 focus:border-[#192633] focus:outline-none bg-transparent resize-none placeholder-[#192633]"
             />
+          </div>
+          <div>
+            <p className='text-[#7a7a7ad3] text-start'>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            </p>
           </div>
 
           <button 
             type="submit"
-            className="w-full bg-[#192633] text-white py-3 px-6 hover:bg-orange-500 transition-colors"
+            className="md:w-1/2 bg-[#04192D] text-white py-3 px-6 hover:bg-orange-500 transition-colors"
           >
             Contact Us
           </button>
