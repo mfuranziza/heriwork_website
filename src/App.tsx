@@ -31,6 +31,9 @@ function App() {
       <div className="mt-12">
         <Footer />
       </div>
+      <div className="w-full mt-12">
+         <Team />
+      </div>
     </div>
       
     </>
