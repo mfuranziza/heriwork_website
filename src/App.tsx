@@ -32,7 +32,7 @@ function App() {
         <Footer />
       </div>
       <div className="w-full mt-12">
-         <Team />
+        <Team />
       </div>
     </div>
       
