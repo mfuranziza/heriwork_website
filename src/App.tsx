@@ -6,7 +6,7 @@ import ContactForm from './components/Contact-us'
 import About from './components/About'
 import Testimonials from './components/testimonials'
 import Partners from './components/Partners'
-
+import Team from './components/Team'
 
 function App() {
 
