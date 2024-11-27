@@ -1,4 +1,5 @@
 
+
 import { Home } from './components/Home'
 import './App.css'
 import Footer from './components/Footer'
@@ -10,39 +11,36 @@ import Team from './components/Team'
 import Opportunities from './components/Opportunities'
 
 function App() {
-
   return (
     <>
    <div className='  font-poppins '>
     <Home/>
    </div>
-   <div className="font-poppins bg-gray-50">
+   <div className="font-poppins">
       <div className="w-full">
         <About />
       </div>
-      <div className="w-full mt-12">
+      <div className="w-full">
         <Partners />
       </div>
-      <div className="w-full mt-12">
+      <div className="w-full">
         <Team />
       </div>
-      <div className="mt-12">
+      <div className="">
         <Testimonials />
       </div>
-      <div className="w-full mt-12">
+      <div className="w-full">
         <Opportunities />
       </div>
-      <div className="mt-12">
+      <div className="">
         <ContactForm />
       </div>
-      <div className="mt-12">
+      <div className="">
         <Footer />
       </div>
     </div>
-      
     </>
-  )
+  );
 }
 
-export default App
-
+export default App;
