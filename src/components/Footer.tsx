@@ -76,8 +76,8 @@ const Footer = () => {
               More Info
             </h4>
             <p className="text-[#7A7A7A] text-center md:text-left">
-              Lorem ipsum is simply dummy text of the printing and typesetting industry. 
-              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+            Expanding workstudy job opportunities for underprivileged college
+            students to generate some income for upkeep and fees .
             </p>
           </div>
         </div>
