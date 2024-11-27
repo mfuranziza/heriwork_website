@@ -1,61 +1,67 @@
-  import "slick-carousel/slick/slick.css";
-  import "slick-carousel/slick/slick-theme.css";
-  import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
-  const Testimonials = () => {
-    const testimonials = [
-      {
-        name: "Michael Lenanyokie",
-        university: "Strathmore University",
-        feedback:
-          "I appreciate the work heriwork is doing to connect students from humble backgrounds like myself to more work-study opportunities from outside the university.",
-        image: "https://via.placeholder.com/80", 
-      },
-      {
-        name: "Michael Lenanyokie",
-        university: "Strathmore University",
-        feedback:
-          "I appreciate the work heriwork is doing to connect students from humble backgrounds like myself to more work-study opportunities from outside the university.",
-        image: "https://via.placeholder.com/80", 
-      },
-      {
-        name: "Michael Lenanyokie",
-        university: "Strathmore University",
-        feedback:
-          "I appreciate the work heriwork is doing to connect students from humble backgrounds like myself to more work-study opportunities from outside the university.",
-        image: "https://via.placeholder.com/80", 
-      },
-    ];
+const Testimonials = () => {
+  const testimonials = [
+    {
+      name: "Michael Lenanyokie",
+      university: "Strathmore University",
+      feedback:
+        "I appreciate the work heriwork is doing to connect students from humble backgrounds like myself to more work-study opportunities from outside the university.",
+      image: "https://via.placeholder.com/80",
+    },
+    {
+      name: "Michael Lenanyokie",
+      university: "Strathmore University",
+      feedback:
+        "I appreciate the work heriwork is doing to connect students from humble backgrounds like myself to more work-study opportunities from outside the university.",
+      image: "https://via.placeholder.com/80",
+    },
+    {
+      name: "Michael Lenanyokie",
+      university: "Strathmore University",
+      feedback:
+        "I appreciate the work heriwork is doing to connect students from humble backgrounds like myself to more work-study opportunities from outside the university.",
+      image: "https://via.placeholder.com/80",
+    },
+  ];
 
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1024,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-          },
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
         },
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
-      ],
-    };
+      },
+    ],
+  };
 
-    return (
-      <div style={{ width: "100vw", padding: "40px 20px", background: "#f9f9f9" }}>
-      <div style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}>
-        <h2 style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "10px" }}>
-          What <span style={{ color: "#dd6a18", fontWeight: "bold" }}>Students</span> Say!
+  return (
+    <div style={{ width: "100vw", padding: "40px 20px" }} className="bg-white">
+      <div
+        style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}
+      >
+        <h2
+          style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "10px" }}
+        >
+          What{" "}
+          <span style={{ color: "#dd6a18", fontWeight: "bold" }}>Students</span>{" "}
+          Say!
         </h2>
         <p style={{ fontSize: "1rem", color: "#555", marginBottom: "30px" }}>
           See how our platform helped some of the students achieve their goals.
@@ -72,11 +78,11 @@
                   textAlign: "center",
                   boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
                   position: "relative",
-                  display: "flex", 
+                  display: "flex",
                   flexDirection: "column",
-                  alignItems: "center", 
-                  justifyContent: "center", 
-                  minHeight: "300px", 
+                  alignItems: "center",
+                  justifyContent: "center",
+                  minHeight: "300px",
                 }}
               >
                 <div
@@ -102,13 +108,31 @@
                     border: "2px solid #0737a5",
                   }}
                 />
-                <h3 style={{ marginBottom: "5px", color: "#0737a5", fontWeight: "bold" }}>
+                <h3
+                  style={{
+                    marginBottom: "5px",
+                    color: "#0737a5",
+                    fontWeight: "bold",
+                  }}
+                >
                   {testimonial.name}
                 </h3>
-                <p style={{ fontSize: "0.9rem", color: "#555", marginBottom: "15px" }}>
+                <p
+                  style={{
+                    fontSize: "0.9rem",
+                    color: "#555",
+                    marginBottom: "15px",
+                  }}
+                >
                   Student at {testimonial.university}
                 </p>
-                <p style={{ fontSize: "0.9rem", color: "#777", lineHeight: "1.5" }}>
+                <p
+                  style={{
+                    fontSize: "0.9rem",
+                    color: "#777",
+                    lineHeight: "1.5",
+                  }}
+                >
                   <i>"{testimonial.feedback}"</i>
                 </p>
               </div>
@@ -117,9 +141,7 @@
         </Slider>
       </div>
     </div>
-    
-    
-    );
-  };
+  );
+};
 
-  export default Testimonials;
+export default Testimonials;
