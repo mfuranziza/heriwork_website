@@ -35,9 +35,9 @@ const JobListing = () => {
         <input
           type="text"
           placeholder="Job Title, Keywords, or Company"
-          className="bg-[#F6F7FC] w-full max-w-lg px-4 py-2 border-none rounded-l-md focus:outline-none"
+          className="bg-[#F6F7FC] w-full max-w-lg px-6 py-4 border-none rounded-l-md focus:outline-none"
         />
-        <button className="px-4 py-2 bg-[#0f2235] text-white rounded-r-md hover:bg-[#04192D]">
+        <button className="px-6 py-4 bg-[#0f2235] text-white rounded-r-md hover:bg-[#04192D]">
           Search
         </button>
       </div>
@@ -60,7 +60,7 @@ const JobListing = () => {
                 Published on: {job.publishedDate} | Deadline: {job.deadline}
               </p>
             </div>
-            <button className="mt-4 md:mt-0 bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600">
+            <button className="mt-4 md:mt-0 bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 border-none focus:outline-none">
               Apply ➜
             </button>
           </div>
