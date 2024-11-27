@@ -4,8 +4,8 @@ const Team = () => {
   return (
     <section className="bg-white py-12">
       <div className="max-w-7xl mx-auto text-center">
-        <h2 className="text-3xl font-semibold text-gray-900 mb-8">
-          Our Team
+      <h2 className="text-3xl font-semibold text-gray-800">
+          Our <span className="text-[#DD6A18]">Team</span>
         </h2>
         <p className="text-lg text-gray-600 mb-12">
           Let us help you find your education while advancing your career.

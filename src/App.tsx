@@ -7,6 +7,7 @@ import About from './components/About'
 import Testimonials from './components/testimonials'
 import Partners from './components/Partners'
 import Team from './components/Team'
+import Opportunities from './components/Opportunities'
 
 function App() {
 
@@ -22,17 +23,20 @@ function App() {
       <div className="w-full mt-12">
         <Partners />
       </div>
+      <div className="w-full mt-12">
+        <Team />
+      </div>
       <div className="mt-12">
         <Testimonials />
+      </div>
+      <div className="w-full mt-12">
+        <Opportunities />
       </div>
       <div className="mt-12">
         <ContactForm />
       </div>
       <div className="mt-12">
         <Footer />
-      </div>
-      <div className="w-full mt-12">
-        <Team />
       </div>
     </div>
       
