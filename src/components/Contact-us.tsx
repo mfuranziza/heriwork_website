@@ -8,10 +8,12 @@ const ContactForm = () => {
         </h2>
 
         <p className="text-[#7a7a7ad3] mb-8 text-start">
-          Lorem ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+        <p className="font-semibold">Access our large database of highly motivated student 
+        talent to support your personal and business goals.</p>
+        <br></br>
+        Do you have part-time roles, freelance work, or paid internship 
+        opportunities that our students can support?
+        Let us help you find top candidates as quickly as possible.
         </p>
 
         <div className="space-y-6">
@@ -40,7 +42,7 @@ const ContactForm = () => {
             </div>
             <div>
               <h3 className="font-medium text-left">Address</h3>
-              <p className="text-[#7a7a7ad3]">ipsum is simply</p>
+              <p className="text-[#7a7a7ad3]">Nairobi Kenya</p>
             </div>
           </div>
 
@@ -63,7 +65,7 @@ const ContactForm = () => {
             </div>
             <div>
               <h3 className="font-medium text-left">Phone Number</h3>
-              <p className="text-[#7a7a7ad3]">+250-765-456-789</p>
+              <p className="text-[#7a7a7ad3]">+254 735 517 728</p>
             </div>
           </div>
 
@@ -86,7 +88,7 @@ const ContactForm = () => {
             </div>
             <div>
               <h3 className="font-medium text-left">E-Mail</h3>
-              <p className="text-[#7a7a7ad3]">contact@gmail.com</p>
+              <p className="text-[#7a7a7ad3]">engageus@heriwork.com</p>
             </div>
           </div>
         </div>
@@ -131,8 +133,7 @@ const ContactForm = () => {
           </div>
           <div>
             <p className="text-[#7a7a7ad3] text-start">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+            In case you just want to talk to us, please leave us a message!
             </p>
           </div>
 

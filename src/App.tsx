@@ -11,26 +11,26 @@ import Opportunities from "./components/Opportunities";
 function App() {
   return (
     <>
-      <div className="  font-poppins ">
+      <div id="home" className="  font-poppins ">
         <Home />
       </div>
-      <div className="font-poppins bg-white">
+      <div id="about" className="font-poppins bg-white">
         <div className="w-full">
           <About />
         </div>
-        <div className="w-full">
+        <div id="partners" className="w-full">
           <Partners />
         </div>
-        <div className="w-full">
+        <div id="team" className="w-full">
           <Team />
         </div>
-        <div className="">
+        <div id="testimonials" className="">
           <Testimonials />
         </div>
-        <div className="w-full">
+        <div id="opportunities" className="w-full">
           <Opportunities />
         </div>
-        <div className="">
+        <div id="contact" className="">
           <ContactForm />
         </div>
         <div className="">

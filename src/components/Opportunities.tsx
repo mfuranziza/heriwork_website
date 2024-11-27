@@ -24,7 +24,7 @@ const JobListing = () => {
   ];
 
   return (
-    <div className="container mx-auto py-8">
+    <div className="mt-10 container mx-auto py-8">
       <div className="mb-8 text-center">
         <h2 className="text-3xl font-semibold text-gray-800">
           Available <span className="text-[#DD6A18]">Opportunities</span>
@@ -69,7 +69,7 @@ const JobListing = () => {
 
       <div className="mt-8 text-center">
         <button className="px-4 py-2 bg-[#04192D] text-white rounded-md hover:bg-[#0f2235]">
-          Next Page
+          View more 
         </button>
       </div>
     </div>
