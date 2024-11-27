@@ -1,4 +1,4 @@
-import aboutUsImg from '../assets/about_us.png';
+import aboutUsImg from '../../public/images/about_us.png';
 
 const About = () => {
   return (
@@ -13,7 +13,7 @@ const About = () => {
       />
     </div>
 
-    <div className="w-full md:w-1/2 text-center md:text-left ml-20">
+    <div className="w-full md:w-1/2 text-center md:text-left ml-20 text-center">
       <h2 className="text-3xl font-semibold text-gray-800">
         About <span className="text-[#DD6A18]">Us</span>
       </h2>
