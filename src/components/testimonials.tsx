@@ -2,6 +2,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+import test1 from '../../public/images/testimonials/testimonial_1.png';
+
 const Testimonials = () => {
   const testimonials = [
     {
@@ -52,7 +54,7 @@ const Testimonials = () => {
   };
 
   return (
-    <div style={{ width: "100vw", padding: "40px 20px" }} className="bg-white">
+    <div style={{ width: "100vw", padding: "40px 0px 60px 0px" }} className="bg-[#F6F7FC]">
       <div
         style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}
       >
@@ -97,7 +99,7 @@ const Testimonials = () => {
                   &ldquo;
                 </div>
                 <img
-                  src={testimonial.image}
+                  src={test1}
                   alt={testimonial.name}
                   style={{
                     width: "80px",
