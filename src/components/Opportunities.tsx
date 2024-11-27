@@ -1,5 +1,3 @@
-import React from "react";
-
 const JobListing = () => {
   const jobListings = [
     {
@@ -7,7 +5,7 @@ const JobListing = () => {
       location: "Bank of Kenya | Kilimani",
       publishedDate: "06-11-2024",
       deadline: "29-11-2024",
-      image: "/images/01.png", 
+      image: "/images/01.png",
     },
     {
       title: "Customer Service Remote Agent Position",
@@ -17,12 +15,12 @@ const JobListing = () => {
       image: "/images/op2.jpg",
     },
     {
-        title: "Customer Service Remote Agent Position",
-        location: "Bank of Kenya | Kilimani",
-        publishedDate: "06-11-2024",
-        deadline: "29-11-2024",
-        image: "/images/opp.jpg",
-      },
+      title: "Customer Service Remote Agent Position",
+      location: "Bank of Kenya | Kilimani",
+      publishedDate: "06-11-2024",
+      deadline: "29-11-2024",
+      image: "/images/opp.jpg",
+    },
   ];
 
   return (
@@ -37,7 +35,7 @@ const JobListing = () => {
         <input
           type="text"
           placeholder="Job Title, Keywords, or Company"
-          className="w-full max-w-lg px-4 py-2 border border-gray-300 rounded-l-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+          className="bg-[#F6F7FC] w-full max-w-lg px-4 py-2 border-none rounded-l-md focus:outline-none"
         />
         <button className="px-4 py-2 bg-[#0f2235] text-white rounded-r-md hover:bg-[#04192D]">
           Search
@@ -48,7 +46,7 @@ const JobListing = () => {
         {jobListings.map((job, index) => (
           <div
             key={index}
-            className="flex flex-col md:flex-row items-start md:items-center bg-white shadow-md rounded-md p-4 hover:shadow-lg transition-shadow"
+            className="flex flex-col md:flex-row items-start md:items-center bg-white shadow-sm rounded-md p-4 hover:shadow-md transition-shadow"
           >
             <img
               src={job.image}
