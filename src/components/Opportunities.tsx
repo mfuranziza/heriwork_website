@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from "react";
 
 const JobListing = () => {
   const jobListings = [
@@ -8,7 +8,8 @@ const JobListing = () => {
       publishedDate: "06-11-2024",
       deadline: "29-11-2024",
       image: "/images/01.png",
-      description: "We are looking for a customer service remote agent to assist our clients with inquiries, support, and service-related tasks. The job requires excellent communication skills and the ability to resolve issues quickly. Additionally, the agent will handle customer feedback, assist with training new hires, and maintain accurate records of customer interactions."
+      description:
+        "We are looking for a customer service remote agent to assist our clients with inquiries, support, and service-related tasks. The job requires excellent communication skills and the ability to resolve issues quickly. Additionally, the agent will handle customer feedback, assist with training new hires, and maintain accurate records of customer interactions.",
     },
     {
       title: "Customer Service Remote Agent Position",
@@ -16,7 +17,8 @@ const JobListing = () => {
       publishedDate: "06-11-2024",
       deadline: "29-11-2024",
       image: "/images/op2.jpg",
-      description: "Join our team as a customer service remote agent, where you'll provide exceptional service to customers, handle inquiries, and resolve concerns effectively. This role is ideal for individuals with strong interpersonal skills. The job requires an empathetic approach to customer concerns, handling technical issues, and resolving customer complaints through multiple channels."
+      description:
+        "Join our team as a customer service remote agent, where you'll provide exceptional service to customers, handle inquiries, and resolve concerns effectively. This role is ideal for individuals with strong interpersonal skills. The job requires an empathetic approach to customer concerns, handling technical issues, and resolving customer complaints through multiple channels.",
     },
     {
       title: "Customer Service Remote Agent Position",
@@ -24,7 +26,8 @@ const JobListing = () => {
       publishedDate: "06-11-2024",
       deadline: "29-11-2024",
       image: "/images/opp.jpg",
-      description: "As a remote customer service agent, you'll be responsible for assisting customers with troubleshooting and inquiries, ensuring satisfaction, and maintaining a positive relationship with clients. The position requires individuals who can multitask and manage several support requests at once while maintaining high service standards."
+      description:
+        "As a remote customer service agent, you'll be responsible for assisting customers with troubleshooting and inquiries, ensuring satisfaction, and maintaining a positive relationship with clients. The position requires individuals who can multitask and manage several support requests at once while maintaining high service standards.",
     },
   ];
 
@@ -49,8 +52,8 @@ const JobListing = () => {
 
       <div className="grid gap-6">
         {jobListings.map((job, index) => {
-          const [isReadMore, setIsReadMore] = useState(false); 
-          
+          const [isReadMore, setIsReadMore] = useState(false);
+
           const handleReadMore = () => setIsReadMore(!isReadMore);
 
           return (
