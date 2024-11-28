@@ -11,7 +11,7 @@ import Opportunities from "./components/Opportunities";
 function App() {
   return (
     <>
-      <div id="home" className="  font-poppins ">
+      <div id="home" className="  font-poppins overflow-x-hidden ">
         <Home />
       </div>
       <div id="about" className="font-poppins bg-white">
