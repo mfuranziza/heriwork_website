@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import logo from '../../public/images/white-logo.png';
 
 export const Navigation = () => {
@@ -23,37 +23,37 @@ export const Navigation = () => {
         <div className="hidden md:block ">
           <div className="flex space-x-6 lg:space-x-14">
             <a
-              href=""
+              href="#home"
               className="relative text-white hover:text-white after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[#DD6A18] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full"
             >
               Home
             </a>
             <a
-              href=""
+              href="#about"
               className="relative text-white hover:text-white after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[#DD6A18] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full"
             >
               About Us
             </a>
             <a
-              href=""
+              href="#partners"
               className="relative text-white hover:text-white after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[#DD6A18] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full"
             >
               Partners
             </a>
             <a
-              href=""
+              href="#testimonials"
               className="relative text-white hover:text-white after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[#DD6A18] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full"
             >
               Testimonials
             </a>
             <a
-              href=""
+              href="#opportunities"
               className="relative text-white hover:text-white after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[#DD6A18] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full"
             >
               Opportunities
             </a>
             <a
-              href=""
+              href="#contact"
               className="relative text-white hover:text-white after:content-[''] after:block after:w-0 after:h-[2px] after:bg-[#DD6A18] after:transition-all after:duration-300 after:ease-in-out hover:after:w-full"
             >
               Contact Us
