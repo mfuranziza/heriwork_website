@@ -107,13 +107,13 @@ const Testimonials = () => {
                     borderRadius: "50%",
                     marginBottom: "15px",
                     objectFit: "cover",
-                    border: "2px solid #0737a5",
+                    border: "2px solid #0f2235",
                   }}
                 />
                 <h3
                   style={{
                     marginBottom: "5px",
-                    color: "#0737a5",
+                    color: "#0f2235",
                     fontWeight: "bold",
                   }}
                 >

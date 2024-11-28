@@ -68,9 +68,9 @@ const JobListing = () => {
       </div>
 
       <div className="mt-8 text-center">
-        <button className="px-4 py-2 bg-[#04192D] text-white rounded-md hover:bg-[#0f2235]">
+        {/* <button className="px-4 py-2 bg-[#04192D] text-white rounded-md hover:bg-[#0f2235]">
           View more 
-        </button>
+        </button> */}
       </div>
     </div>
   );
