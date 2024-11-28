@@ -2,10 +2,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-import test1 from '../../public/images/testimonials/testimonial_1.png';
-import student1 from "../../public/images/testimonials/student1.jpg"
-import student2 from "../../public/images/testimonials/student2.jpg"
-import student3 from "../../public/images/testimonials/student3.jpg"
+import student1 from "../../public/images/testimonials/student1.jpg";
+import student2 from "../../public/images/testimonials/student2.jpg";
+import student3 from "../../public/images/testimonials/student3.jpg";
 
 const Testimonials = () => {
   const testimonials = [
@@ -57,27 +56,34 @@ const Testimonials = () => {
   };
 
   return (
-    <div style={{ width: "100vw", padding: "40px 0px 60px 0px" }} className="bg-[#F6F7FC]">
+    <div
+      style={{ width: "100vw", padding: "40px 0px 60px 0px" }}
+      className="bg-[#F6F7FC]"
+    >
       <div
-         style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}
+        style={{ maxWidth: "1200px", margin: "0 auto", textAlign: "center" }}
       >
         <h2
-         className=" font-semibold text-3xl text-[#04192D]" style={{  marginBottom: "10px" }}
+          className=" font-semibold text-3xl text-[#04192D]"
+          style={{ marginBottom: "10px" }}
         >
-          What{" "}
-          <span style={{ color: "#dd6a18" }}>Students</span>{" "}
-          Say!
+          What <span style={{ color: "#dd6a18" }}>Students</span> Say!
         </h2>
-        <p className="pb-4" style={{ fontSize: "1rem", color: "#555", marginBottom: "30px" }}>
+        <p
+          className="pb-4"
+          style={{ fontSize: "1rem", color: "#555", marginBottom: "30px" }}
+        >
           See how our platform helped some of the students achieve their goals.
         </p>
         <Slider {...settings} className="  ">
           {testimonials.map((testimonial, index) => (
-            <div key={index} className='px-8 pb-2'  style={{ padding: "0 10px" }}>
+            <div
+              key={index}
+              className="px-8 pb-2"
+              style={{ padding: "0 10px" }}
+            >
               <div
-            
                 style={{
-                 
                   borderRadius: "10px",
                   padding: "20px",
                   background: "#fff",
@@ -92,7 +98,7 @@ const Testimonials = () => {
                 }}
               >
                 <div
-                className="pt-4 pl-2"
+                  className="pt-4 pl-2"
                   style={{
                     position: "absolute",
                     top: "-20px",
@@ -112,7 +118,6 @@ const Testimonials = () => {
                     borderRadius: "50%",
                     marginBottom: "15px",
                     objectFit: "cover",
-                  
                   }}
                 />
                 <h3
