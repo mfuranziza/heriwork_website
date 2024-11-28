@@ -139,7 +139,7 @@ const ContactForm = () => {
 
           <button
             type="submit"
-            className="md:w-1/2 bg-[#04192D] text-white py-3 px-6 hover:bg-orange-500 transition-colors"
+            className=" bg-[#04192D] text-white py-2 px-12 hover:bg-orange-500 transition-colors"
           >
             Contact Us
           </button>

@@ -10,7 +10,7 @@ const Partners = () => {
         <h2 className="text-3xl font-semibold text-gray-800">
           Our <span className="text-[#DD6A18]">Partners</span>
         </h2>
-        <p className="px-4 sm:px-10 md:px-20 lg:px-40 text-center text-sm sm:text-base md:text-base lg:text-base text-[#7A7A7A] leading-relaxed">
+        <p className="px-4 sm:px-10 md:px-20 linehe lg:px-40 text-center text-sm sm:text-base md:text-base lg:text-base text-[#7A7A7A] leading-relaxed">
     Partnerships are Heriwork's catalyst for helping deserving students 
     achieve their academic dreams. By engaging our students in paid work, 
     our partners also equip them with the skills they need to thrive in tomorrow's workforce.
