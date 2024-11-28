@@ -17,8 +17,6 @@ export const Home = () => {
   Empowering students through job and internship opportunities to support their education!
 </p>
 
-
-
           {/* Subheading */}
           <p className="text-sm typing-effect sm:text-base md:text-lg text-[#D8E4FF]">
             Explore a wide range of career-building opportunities
